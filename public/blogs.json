@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/gZWmrbQ/pexels-hani-fe-duran-16667202.jpg", 
+        "title": "Unveiling the Mysteries of the Universe", 
+        "author": "Dr. Amelia Cosmos", 
+        "author-img": "", 
+        "posted-date": "2024-03-14", 
+        "reading-time": 10, 
+        "hashtags": ["#space", "#astronomy", "#cosmos"]
+    }, 
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/Mcy4Bxh/pexels-cottonbro-studio-5076520.jpg", 
+        "title": "The Perfect Cup: Brewing Coffee Like a Barista", 
+        "author": "Ethan Bean", 
+        "author-img": "", 
+        "posted-date": "2024-03-13", 
+        "reading-time": 5, 
+        "hashtags": ["#coffee", "#brewing", "#coffeelover"]
+    }, 
+    {
+        "id": 3, 
+        "cover": "https://i.ibb.co/7kLkZWp/pexels-jess-bailey-designs-839443.jpg", 
+        "title": "Conquering Everest: One Step at a Time", 
+        "author": "Maya Peak", 
+        "author-img": "", 
+        "posted-date": "2024-03-12", 
+        "reading-time": 15, 
+        "hashtags": ["#travel", "#adventure", "#everest"]
+    }, 
+    {
+        "id": 4, 
+        "cover": "https://i.ibb.co/1MBhXjz/pexels-pixabay-207636.jpg", 
+        "title": "The Secret Lives of Cats", 
+        "author": "Dr. Felix Purrfect",
+        "author-img": "", 
+        "posted-date": "2024-03-11", 
+        "reading-time": 8, 
+        "hashtags": ["#cats", "#pets", "#animals"]
+    }, 
+    {
+        "id": 5, 
+        "cover": "https://i.ibb.co/0Jm2s21/pexels-maria-orlova-4947406.jpg", 
+        "title": "Coding for Beginners: Your First Steps into the Digital World",
+        "author": "Alex Bytecode", 
+        "author-img": "", 
+        "posted-date": "2024-03-10", 
+        "reading-time": 12, 
+        "hashtags": ["#coding", "#programming", "#technology"]
+    }
+]
