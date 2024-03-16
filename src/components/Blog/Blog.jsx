@@ -4,8 +4,8 @@ import { FaRegBookmark } from "react-icons/fa";
 const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
     const {title,cover, author, author_img, reading_time,posted_date,hashtags}=blog;
     return (
-        <div className='space-y-2'>
-            <img className='h-96 mt-20 w-full rounded-lg' src={cover} alt={`Cover picture of the title ${title}`} />
+        <div className='space-y-2 mb-20'>
+            <img className='h-96 w-full rounded-lg' src={cover} alt={`Cover picture of the title ${title}`} />
             <div className='flex justify-between items-center'>
                 <div className='flex items-center'>
                     <img className='h-16 w-16 rounded-full' src={author_img} alt="" />
