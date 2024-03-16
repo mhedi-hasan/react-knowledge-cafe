@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='md:flex mt-4'>
+      <div className='md:flex gap-6 mt-4'>
         <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
         <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
