@@ -16,7 +16,7 @@
         "author": "Ethan Bean", 
         "author_img": "../src/assets/images/girl2.jpg", 
         "posted_date": "Mar 13 (5 Days ago)", 
-        "reading_time": "05", 
+        "reading_time": 5, 
         "hashtags": ["coffee", "brewing", "coffeelover"]
     }, 
     {
@@ -36,7 +36,7 @@
         "author": "Dr. Felix Purrfect",
         "author_img": "../src/assets/images/boy1.png", 
         "posted_date": "Mar 17 (1 Days ago)", 
-        "reading_time": "08", 
+        "reading_time": 8, 
         "hashtags": ["cats", "pets", "animals"]
     }, 
     {
