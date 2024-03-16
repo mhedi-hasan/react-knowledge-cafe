@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import { FaRegBookmark } from "react-icons/fa";
 
 const Blog = ({blog}) => {
     const {title,cover, author, author_img, reading_time,posted_date,hashtags}=blog;
     return (
-        <div>
+        <div className='space-y-2'>
             <img className='h-96 mt-20 w-full rounded-md' src={cover} alt={`Cover picture of the title ${title}`} />
             <div className='flex justify-between items-center'>
                 <div className='flex items-center'>
@@ -13,8 +14,9 @@ const Blog = ({blog}) => {
                         <p>{posted_date}</p>
                     </dir>
                 </div>
-                <div>
-                    <h4>{reading_time} {`min read`}</h4>
+                <div className='flex gap-2'>
+                    <span>{reading_time} {`min read`}</span>
+                    <button className='text-[19px'><FaRegBookmark /></button>
                 </div>
             </div>
             <h2 className="text-2xl font-semibold">{title}</h2>
